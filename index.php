@@ -1,13 +1,15 @@
 <?php
 include("header.html");
 ?>      
-     <div id="body2">
+<main>
+     <section id="body1" style="width: 600px;">
          <span>صفحه اصلی</span>
-     </div>
-     <div id="body1">
-        <span>محصولات ویژه</span>
-     </div>
-
+    </section>
+     <aside id="body2">
+        <span>تبلیغات</span>
+    </aside>
+</main>
 <?php
 include("footer.html");
 ?>
+
