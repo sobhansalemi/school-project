@@ -1,0 +1,153 @@
+body{
+    direction: rtl;
+    background-color: white;
+    margin: 0px;
+}
+#header{
+    font-size: 30px;
+    background-color: aqua;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+main{
+    background-color: rgb(211, 211, 211);
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+}
+#body1,#body2{
+    font-size: 30px;
+    background-color: orange;
+    height: 1000px;
+    text-align: center; 
+    flex-grow: 1;   
+    margin: 10px;
+}
+#footer{
+    background-color:burlywood;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 20px;
+}
+.flex-container{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    margin-top:10px;
+}
+.item-flex{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(253, 255, 253);
+    font-size: 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:rgb(74, 236, 88) ;
+}
+a{
+    color: rgb(74, 236, 88);
+    text-decoration: none;
+}
+.item-flex:hover {
+    background-color: rgb(74, 236, 88);
+}
+a:hover{
+    color: white;
+}
+
+form {
+    border: 5px solid #f1f1f1;
+}
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #1a5942;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.7;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+ }
+img.avatar{
+    width: 30%;
+}
+.container{
+    padding: 16px;
+}
+p{
+    margin: 20px;
+    color: #f1f1f1;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #182d37;
+    margin: 20px auto 0;
+}
+.main-footer{
+    margin: 0 auto;
+    width: 1100px;
+}
+.about{
+    width: 350px;
+    height: 300px;
+    float: right;
+}
+.about h5, .social h5,.access h5{
+    font:16px  Tahoma;
+    color: #e2e2e2;
+    padding: 5px;
+    margin: 20px;
+}
+.about p{
+    font:13px/2  Tahoma;
+    color: #e2e2e2;
+    text-align: justify;
+}
+.social{
+    width: 350px;
+    margin: 0 50px;
+    float: right;
+}
+.social ul li{
+    float: right;
+    margin: 10px 2px;
+}
+.social ul li img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+ }
+ .access{
+    width: 300px;
+    float: right;
+ }
+.access ul li a{
+    font:13px/2 Tahoma;
+    color: #e2e2e2;
+    margin: 2px;
+}
+.access ul li a:hover{
+    color: #4c7d89;
+}
+ul{
+    list-style: none;
+}
